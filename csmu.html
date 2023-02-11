@@ -7,7 +7,7 @@
     <meta name="viewport" content=
         "width=device-width, initial-scale=1.0">
     <title>
-        Build a Survey Form using HTML and CSS
+        朝深纪念大学录取系统
     </title>
  
     <style>
@@ -15,7 +15,7 @@
         /* Styling the Body element i.e. Color,
         Font, Alignment */
         body {
-            background-color: #05c46b;
+            background-color: #5e88b8;
             font-family: Verdana;
             text-align: center;
         }
@@ -86,128 +86,93 @@
         <!-- Details -->
         <div class="form-control">
             <label for="name" id="label-name">
-                Name
+                姓名
             </label>
  
             <!-- Input Type Text -->
             <input type="text"
                    id="name"
-                   placeholder="Enter your name" />
-        </div>
-  
-        <div class="form-control">
-            <label for="email" id="label-email">
-                Email
-            </label>
- 
-            <!-- Input Type Email-->
-            <input type="email"
-                   id="email"
-                   placeholder="Enter your email" />
-        </div>
-  
-        <div class="form-control">
-            <label for="age" id="label-age">
-                Age
-            </label>
- 
-            <!-- Input Type Text -->
-            <input type="text"
-                   id="age"
-                   placeholder="Enter your age" />
+                   placeholder="Guang Yang" 
+                   readonly="readonly"/>
         </div>
   
         <div class="form-control">
             <label for="role" id="label-role">
-                Which option best describes you?
+                你觉得张朝深帅不帅？
             </label>
              
             <!-- Dropdown options -->
             <select name="role" id="role">
-                <option value="student">Student</option>
-                <option value="intern">Intern</option>
+                <option value="student">帅</option>
+                <option value="intern">很帅</option>
                 <option value="professional">
-                    Professional
+                    超级帅
                 </option>
-                <option value="other">Other</option>
+                <option value="other">最帅</option>
             </select>
         </div>
   
         <div class="form-control">
             <label>
-                Would you recommend GeeksforGeeks
-                to a friend?
+                你是否接受朝深纪念大学的录取？
             </label>
  
             <!-- Input Type Radio Button -->
             <label for="recommed-1">
                 <input type="radio"
                        id="recommed-1"
-                       name="recommed">Yes</input>
+                       name="recommed">接受</input>
             </label>
             <label for="recommed-2">
                 <input type="radio"
                        id="recommed-2"
-                       name="recommed">No</input>
+                       name="recommed">同意</input>
             </label>
             <label for="recommed-3">
                 <input type="radio"
                        id="recommed-3"
-                       name="recommed">Maybe</input>
+                       name="recommed">好的</input>
             </label>
         </div>
   
         <div class="form-control">
-            <label>Languages and Frameworks known
-                <small>(Check all that apply)</small>
+            <label>选择你的导师
+                <small>多选</small>
             </label>
             <!-- Input Type Checkbox -->
             <label for="inp-1">
                 <input type="checkbox"
-                       name="inp">C</input></label>
+                       name="inp">张超神</input></label>
             <label for="inp-2">
                 <input type="checkbox"
-                       name="inp">C++</input></label>
+                       name="inp">张博士</input></label>
             <label for="inp-3">
                 <input type="checkbox"
-                       name="inp">C#</input></label>
+                       name="inp">张教授</input></label>
             <label for="inp-4">
                 <input type="checkbox"
-                       name="inp">Java</input></label>
+                       name="inp">张院士</input></label>
             <label for="inp-5">
                 <input type="checkbox"
-                       name="inp">Python</input></label>
+                       name="inp">张副教授</input></label>
             <label for="inp-6">
                 <input type="checkbox"
-                       name="inp">JavaScript</input></label>
+                       name="inp">张导</input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">React</input></label>
+                       name="inp">张千人</input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">Angular</input></label>
+                       name="inp">电线杆</input></label>
             <label for="inp-7">
                 <input type="checkbox"
-                       name="inp">Django</input></label>
-            <label for="inp-7">
-                <input type="checkbox"
-                       name="inp">Spring</input></label>
+                       name="inp">张帅侠</input></label>
         </div>
   
-        <div class="form-control">
-            <label for="comment">
-                Any comments or suggestions
-            </label>
- 
-            <!-- multi-line text input control -->
-            <textarea name="comment" id="comment"
-                placeholder="Enter your comment here">
-            </textarea>
-        </div>
   
         <!-- Multi-line Text Input Control -->
         <button type="submit" value="submit">
-            Submit
+            提交
         </button>
     </form>
 </body>
